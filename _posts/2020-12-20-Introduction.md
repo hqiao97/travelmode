@@ -3,10 +3,8 @@ title: "Introduction"
 date: 2020-12-20
 published: true
 tags: [dataviz, hvplot]
-excerpt: "Trip mode distribution by state and demographic information."
+excerpt: "A short introduction to our project."
 hv-loader:
-  hv-chart-1: ["charts/modeHvplot.html", "500"] # second argument is the height
-  hv-chart-2: ["charts/acsHvplot.html", "500"] # second argument is the height
 toc: true
 toc_sticky: true
 ---
