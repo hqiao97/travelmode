@@ -16,5 +16,4 @@ data visualziation tools.
 trip characteristics and land-use characteristics.
 As urban planners, we believe data science should be incorperated more into the planning process to help convey stories through
 data visualization and to better understand people's traveling behaviors. If you are interested in the intersection of data and 
-planning, please come along with us on this exciting journey! If you have questions or feedbacks, please feel free to email us at:
-hqiao1@design.upenn.edu
+planning, please come along with us on this exciting journey!
