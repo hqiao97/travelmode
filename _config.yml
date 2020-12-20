@@ -16,10 +16,10 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "MUSA 550: Geospatial Data Science in Python"
+title: "MUSA 550: Understand Travel Mode Choice"
 title_separator: "-"
-name: "Nick Hand"
-description: "Displaying cool data visualizations"
+name: "Zirui Chen, Tingting Huang, Han Qiao"
+description: "Analyzing 2017 NHTS to understand travel mode choice"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
