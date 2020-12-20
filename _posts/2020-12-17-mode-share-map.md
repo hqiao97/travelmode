@@ -1,5 +1,5 @@
 ---
-title: "Panel: Trip Mode Distribution"
+title: "Panel: Trip Mode Share Map"
 date: 2020-12-17
 published: true
 tags: [dataviz, hvplot]
