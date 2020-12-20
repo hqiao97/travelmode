@@ -1,5 +1,5 @@
 ---
-title: "Panel: Trip Mode Share Map"
+title: "Altair + Panel: Trip Mode Share Map"
 date: 2020-12-17
 published: true
 tags: [dataviz, hvplot, altair, panel]
@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
 ---
 ## Introduction
-In this Panel webapp, we present the share of trips by each mode choice in each state through interactive maps. Along with the mode share map, we also present some demographic information from ACS to allow users to compare and explore relationships between the two maps.
+In this Panel webapp, we present the share of trips by each mode choice in each state through an interactive map and the total count of trips in the specific mode by state in a bar chart. Along with the mode share map, we also present some demographic information from ACS to allow users to compare and explore relationships between the two maps.
 
 ## User's guide
 Users can select a mode choice to be presented in the mode share map through a drop down list and then select a demographic information variable through the other drop down list.
