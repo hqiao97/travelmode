@@ -1,5 +1,5 @@
 ---
-title: "Altair: Exploratory Data Analysis"
+title: "Altair + Panel: Exploratory Data Analysis"
 date: 2020-12-19
 published: true
 tags: [dataviz, hvplot]
