@@ -1,6 +1,6 @@
 ---
 title: "Panel: Trip Mode Distribution"
-date: 2020-12-19
+date: 2020-12-17
 published: true
 tags: [dataviz, hvplot]
 excerpt: "Trip mode distribution by state and demographic information."
