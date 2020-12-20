@@ -1,5 +1,5 @@
 ---
-title: "Altair: Understand the National Household Travel Survey"
+title: "Altair: Exploratory Data Analysis"
 date: 2020-12-19
 published: true
 tags: [dataviz, hvplot]
