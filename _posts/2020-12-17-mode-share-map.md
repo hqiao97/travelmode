@@ -19,8 +19,8 @@ Users can select a mode choice to be presented in the mode share map through a d
 ## Example map
 Since the interactive map requires a dynamic page, we present two screenshots of the webapp and two toy examples that can be shown on a static page.
 
-![alt-text]({{ site.url }}{{ site.baseurl }}/assets/images/mode-share-app1.png
-![alt-text]({{ site.url }}{{ site.baseurl }}/assets/images/mode-share-app2.png
+![mode-share-app1]({{ site.url }}{{ site.baseurl }}/assets/images/mode-share-app1.png)
+![mode-share-app2]({{ site.url }}{{ site.baseurl }}/assets/images/mode-share-app2.png)
 
 <div id="hv-chart-1"></div>
 <div id="hv-chart-2"></div>
