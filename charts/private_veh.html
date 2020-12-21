@@ -1,0 +1,97 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>private_veh</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="/static/extensions/panel/css/alerts.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/card.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/widgets.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/markdown.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/json.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/dataframe.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="/static/extensions/panel/bundled/vegaplot/npm/vega@5" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="/static/extensions/panel/bundled/vegaplot/npm/vega-lite@4" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="/static/extensions/panel/bundled/vegaplot/npm/vega-embed@6" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5/build/vega.min.js" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@4/build/vega-lite.min.js" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6/build/vega-embed.min.js" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="0f42a175-99e8-45e2-ac89-f86256cea0ad" data-root-id="2541"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2702">
+          {"85d1d676-5b00-411f-beba-b6618765aa60":{"roots":{"references":[{"attributes":{"margin":[5,5,5,5],"name":"HSpacer06340","sizing_mode":"stretch_width"},"id":"2604","type":"Spacer"},{"attributes":{"source":{"id":"2576"}},"id":"2583","type":"CDSView"},{"attributes":{},"id":"2562","type":"SaveTool"},{"attributes":{"axis_label":"proportion","bounds":"auto","formatter":{"id":"2586"},"major_label_orientation":"horizontal","ticker":{"id":"2559"}},"id":"2558","type":"LinearAxis"},{"attributes":{},"id":"2585","type":"CategoricalTickFormatter"},{"attributes":{},"id":"2551","type":"CategoricalScale"},{"attributes":{},"id":"2577","type":"Selection"},{"attributes":{"fill_color":{"field":"OBHUR","transform":{"id":"2575"}},"top":{"field":"proportion"},"width":{"value":0.8},"x":{"field":"xoffsets"}},"id":"2579","type":"VBar"},{"attributes":{},"id":"2594","type":"UnionRenderers"},{"attributes":{},"id":"2586","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"2576"},"glyph":{"id":"2579"},"hover_glyph":null,"muted_glyph":{"id":"2581"},"nonselection_glyph":{"id":"2580"},"selection_glyph":null,"view":{"id":"2583"}},"id":"2582","type":"GlyphRenderer"},{"attributes":{"data":{"OBHUR":["Rural","Rural","Rural","Rural","Rural","Second City","Second City","Second City","Second City","Second City","Small Town","Small Town","Small Town","Small Town","Small Town","Suburban","Suburban","Suburban","Suburban","Suburban","Urban","Urban","Urban","Urban","Urban"],"R_RACE":["American Indian or Alaska Native","Asian","Black/African American","Native Hawaiian or other Pacific Islander","White/Caucasian","American Indian or Alaska Native","Asian","Black/African American","Native Hawaiian or other Pacific Islander","White/Caucasian","American Indian or Alaska Native","Asian","Black/African American","Native Hawaiian or other Pacific Islander","White/Caucasian","American Indian or Alaska Native","Asian","Black/African American","Native Hawaiian or other Pacific Islander","White/Caucasian","American Indian or Alaska Native","Asian","Black/African American","Native Hawaiian or other Pacific Islander","White/Caucasian"],"proportion":{"__ndarray__":"h/Iaymuo6z+onu8A6oTsP5cRuCoI+uw/27sO6MY87T9ADjmTfcHsP7w/BLw/BOw/QnxVmWLC6j8Wi42dtxbrP4/+lRBDwew/bbpOCozY6z8qa8qasqbsP37oMlKPpOs/F8sMr2e27D8K0/aFwrTtP7e50jbDKe0/lmOIpFDj7D8GUOqs7d3rP50FkBfBOOw/ZmZmZmZm7T/5HjMpJe3sP7qzI5j/Ruc/VS3db7zk5j+iPmGDLGvlP7yAi4kV/Oc/WgWYYYL85j8=","dtype":"float64","order":"little","shape":[25]},"xoffsets":[["American Indian or Alaska Native","Rural"],["Asian","Rural"],["Black/African American","Rural"],["Native Hawaiian or other Pacific Islander","Rural"],["White/Caucasian","Rural"],["American Indian or Alaska Native","Second City"],["Asian","Second City"],["Black/African American","Second City"],["Native Hawaiian or other Pacific Islander","Second City"],["White/Caucasian","Second City"],["American Indian or Alaska Native","Small Town"],["Asian","Small Town"],["Black/African American","Small Town"],["Native Hawaiian or other Pacific Islander","Small Town"],["White/Caucasian","Small Town"],["American Indian or Alaska Native","Suburban"],["Asian","Suburban"],["Black/African American","Suburban"],["Native Hawaiian or other Pacific Islander","Suburban"],["White/Caucasian","Suburban"],["American Indian or Alaska Native","Urban"],["Asian","Urban"],["Black/African American","Urban"],["Native Hawaiian or other Pacific Islander","Urban"],["White/Caucasian","Urban"]]},"selected":{"id":"2577"},"selection_policy":{"id":"2594"}},"id":"2576","type":"ColumnDataSource"},{"attributes":{"end":0.9542136785063655,"reset_end":0.9542136785063655,"reset_start":0.0,"tags":[[["proportion","proportion",null]]]},"id":"2544","type":"Range1d"},{"attributes":{"factors":[["American Indian or Alaska Native","Rural"],["American Indian or Alaska Native","Second City"],["American Indian or Alaska Native","Small Town"],["American Indian or Alaska Native","Suburban"],["American Indian or Alaska Native","Urban"],["Asian","Rural"],["Asian","Second City"],["Asian","Small Town"],["Asian","Suburban"],["Asian","Urban"],["Black/African American","Rural"],["Black/African American","Second City"],["Black/African American","Small Town"],["Black/African American","Suburban"],["Black/African American","Urban"],["Native Hawaiian or other Pacific Islander","Rural"],["Native Hawaiian or other Pacific Islander","Second City"],["Native Hawaiian or other Pacific Islander","Small Town"],["Native Hawaiian or other Pacific Islander","Suburban"],["Native Hawaiian or other Pacific Islander","Urban"],["White/Caucasian","Rural"],["White/Caucasian","Second City"],["White/Caucasian","Small Town"],["White/Caucasian","Suburban"],["White/Caucasian","Urban"]],"tags":[[["R_RACE","R_RACE",null],["OBHUR","OBHUR",null]]]},"id":"2543","type":"FactorRange"},{"attributes":{},"id":"2563","type":"PanTool"},{"attributes":{"below":[{"id":"2555"}],"center":[{"id":"2557"},{"id":"2561"}],"left":[{"id":"2558"}],"margin":[5,5,5,5],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_height":500,"plot_width":900,"renderers":[{"id":"2582"}],"sizing_mode":"fixed","title":{"id":"2547"},"toolbar":{"id":"2568"},"x_range":{"id":"2543"},"x_scale":{"id":"2551"},"y_range":{"id":"2544"},"y_scale":{"id":"2553"}},"id":"2546","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"2559","type":"BasicTicker"},{"attributes":{"axis":{"id":"2555"},"grid_line_color":null,"ticker":null},"id":"2557","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"field":"OBHUR","transform":{"id":"2575"}},"line_alpha":{"value":0.2},"top":{"field":"proportion"},"width":{"value":0.8},"x":{"field":"xoffsets"}},"id":"2581","type":"VBar"},{"attributes":{"text":"","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"2547","type":"Title"},{"attributes":{"axis_label":"R_RACE, OBHUR","bounds":"auto","formatter":{"id":"2585"},"major_label_orientation":1.5707963267948966,"ticker":{"id":"2556"}},"id":"2555","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"OBHUR","transform":{"id":"2575"}},"line_alpha":{"value":0.1},"top":{"field":"proportion"},"width":{"value":0.8},"x":{"field":"xoffsets"}},"id":"2580","type":"VBar"},{"attributes":{},"id":"2553","type":"LinearScale"},{"attributes":{"axis":{"id":"2558"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"2561","type":"Grid"},{"attributes":{},"id":"2564","type":"WheelZoomTool"},{"attributes":{},"id":"2556","type":"CategoricalTicker"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer06339","sizing_mode":"stretch_width"},"id":"2542","type":"Spacer"},{"attributes":{"callback":null,"renderers":[{"id":"2582"}],"tags":["hv_created"],"tooltips":[["R_RACE","@{R_RACE}"],["OBHUR","@{OBHUR}"],["proportion","@{proportion}"]]},"id":"2545","type":"HoverTool"},{"attributes":{"children":[{"id":"2542"},{"id":"2546"},{"id":"2604"}],"margin":[0,0,0,0],"name":"Row06335","tags":["embedded"]},"id":"2541","type":"Row"},{"attributes":{"overlay":{"id":"2567"}},"id":"2565","type":"BoxZoomTool"},{"attributes":{},"id":"2566","type":"ResetTool"},{"attributes":{"factors":["Rural","Second City","Small City","Small Town","Suburban","Urban"],"palette":["#FFCBA4","#F75D59","#E77471","#E18B6B","#F88017","#FF7F50"]},"id":"2575","type":"CategoricalColorMapper"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"2545"},{"id":"2562"},{"id":"2563"},{"id":"2564"},{"id":"2565"},{"id":"2566"}]},"id":"2568","type":"Toolbar"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"2567","type":"BoxAnnotation"}],"root_ids":["2541"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2702').textContent;
+                  var render_items = [{"docid":"85d1d676-5b00-411f-beba-b6618765aa60","root_ids":["2541"],"roots":{"2541":"0f42a175-99e8-45e2-ac89-f86256cea0ad"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
