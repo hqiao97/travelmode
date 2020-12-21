@@ -5,8 +5,8 @@ published: true
 tags: [dataviz, hvplot, altair, panel]
 excerpt: "Understand the 2017 NHTS using interactive charts."
 hv-loader:
-  hv-chart-1: ["charts/overallHvplot.html", "500"] # second argument is the height
-  hv-chart-2: ["charts/race.html", "500"] # second argument is the height
+  hv-chart-1: ["charts/overallHvplot.html", "600"] # second argument is the height
+  hv-chart-2: ["charts/race.html", "600"] # second argument is the height
   hv-chart-3: ["charts/origin.html", "500"] # second argument is the height
   hv-chart-4: ["charts/education.html", "500"] # second argument is the height
   hv-chart-5: ["charts/private_veh.html", "500"] # second argument is the height
