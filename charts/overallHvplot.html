@@ -1,0 +1,97 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>overallHvplot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="/static/extensions/panel/css/alerts.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/card.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/widgets.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/markdown.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/json.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/dataframe.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="/static/extensions/panel/bundled/vegaplot/npm/vega@5" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="/static/extensions/panel/bundled/vegaplot/npm/vega-lite@4" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="/static/extensions/panel/bundled/vegaplot/npm/vega-embed@6" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5/build/vega.min.js" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@4/build/vega-lite.min.js" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6/build/vega-embed.min.js" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="01d538e0-0f28-459e-9dd2-88cf56427994" data-root-id="2703"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2863">
+          {"92898043-68b5-4d02-9e8a-726e0dbeff13":{"roots":{"references":[{"attributes":{},"id":"2718","type":"CategoricalTicker"},{"attributes":{"axis":{"id":"2717"},"grid_line_color":null,"ticker":null},"id":"2719","type":"Grid"},{"attributes":{},"id":"2754","type":"UnionRenderers"},{"attributes":{},"id":"2721","type":"BasicTicker"},{"attributes":{"axis_label":"Percentage","bounds":"auto","formatter":{"id":"2748"},"major_label_orientation":"horizontal","ticker":{"id":"2721"}},"id":"2720","type":"LinearAxis"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#ff9a8a"},"line_alpha":{"value":0.2},"top":{"field":"Percentage"},"width":{"value":0.8},"x":{"field":"TRPMODEN"}},"id":"2742","type":"VBar"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer06541","sizing_mode":"stretch_width"},"id":"2704","type":"Spacer"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer06542","sizing_mode":"stretch_width"},"id":"2765","type":"Spacer"},{"attributes":{"source":{"id":"2737"}},"id":"2744","type":"CDSView"},{"attributes":{"callback":null,"renderers":[{"id":"2743"}],"tags":["hv_created"],"tooltips":[["TRPMODEN","@{TRPMODEN}"],["Percentage","@{Percentage}"]]},"id":"2707","type":"HoverTool"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"2729","type":"BoxAnnotation"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#ff9a8a"},"line_alpha":{"value":0.1},"top":{"field":"Percentage"},"width":{"value":0.8},"x":{"field":"TRPMODEN"}},"id":"2741","type":"VBar"},{"attributes":{"children":[{"id":"2704"},{"id":"2708"},{"id":"2765"}],"margin":[0,0,0,0],"name":"Row06537","tags":["embedded"]},"id":"2703","type":"Row"},{"attributes":{"data_source":{"id":"2737"},"glyph":{"id":"2740"},"hover_glyph":null,"muted_glyph":{"id":"2742"},"nonselection_glyph":{"id":"2741"},"selection_glyph":null,"view":{"id":"2744"}},"id":"2743","type":"GlyphRenderer"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"2707"},{"id":"2724"},{"id":"2725"},{"id":"2726"},{"id":"2727"},{"id":"2728"}]},"id":"2730","type":"Toolbar"},{"attributes":{},"id":"2738","type":"Selection"},{"attributes":{"end":94.91399999999999,"reset_end":94.91399999999999,"reset_start":0.0,"tags":[[["Percentage","Percentage",null]]]},"id":"2706","type":"Range1d"},{"attributes":{"fill_color":{"value":"#ff9a8a"},"top":{"field":"Percentage"},"width":{"value":0.8},"x":{"field":"TRPMODEN"}},"id":"2740","type":"VBar"},{"attributes":{},"id":"2724","type":"SaveTool"},{"attributes":{},"id":"2725","type":"PanTool"},{"attributes":{},"id":"2748","type":"BasicTickFormatter"},{"attributes":{"axis":{"id":"2720"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"2723","type":"Grid"},{"attributes":{},"id":"2726","type":"WheelZoomTool"},{"attributes":{"below":[{"id":"2717"}],"center":[{"id":"2719"},{"id":"2723"}],"left":[{"id":"2720"}],"margin":[5,5,5,5],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_width":500,"renderers":[{"id":"2743"}],"sizing_mode":"fixed","title":{"id":"2709"},"toolbar":{"id":"2730"},"x_range":{"id":"2705"},"x_scale":{"id":"2713"},"y_range":{"id":"2706"},"y_scale":{"id":"2715"}},"id":"2708","subtype":"Figure","type":"Plot"},{"attributes":{"data":{"Percentage":{"__ndarray__":"mpmZmZmZ8T9SuB6F61HYP+xRuB6F6+E/FK5H4XqUVUDsUbgehev5P4XrUbgehfM/mpmZmZmZIUA=","dtype":"float64","order":"little","shape":[7]},"TRPMODEN":["Biking","Long-distance Transit","Other","Private Vehicle","Public Transit","School Bus","Walking"]},"selected":{"id":"2738"},"selection_policy":{"id":"2754"}},"id":"2737","type":"ColumnDataSource"},{"attributes":{},"id":"2745","type":"CategoricalTickFormatter"},{"attributes":{"overlay":{"id":"2729"}},"id":"2727","type":"BoxZoomTool"},{"attributes":{},"id":"2713","type":"CategoricalScale"},{"attributes":{},"id":"2728","type":"ResetTool"},{"attributes":{"factors":["Biking","Long-distance Transit","Other","Private Vehicle","Public Transit","School Bus","Walking"],"tags":[[["TRPMODEN","TRPMODEN",null]]]},"id":"2705","type":"FactorRange"},{"attributes":{},"id":"2715","type":"LinearScale"},{"attributes":{"axis_label":"TRPMODEN","bounds":"auto","formatter":{"id":"2745"},"major_label_orientation":1.0471975511965976,"ticker":{"id":"2718"}},"id":"2717","type":"CategoricalAxis"},{"attributes":{"text":"","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"2709","type":"Title"}],"root_ids":["2703"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2863').textContent;
+                  var render_items = [{"docid":"92898043-68b5-4d02-9e8a-726e0dbeff13","root_ids":["2703"],"roots":{"2703":"01d538e0-0f28-459e-9dd2-88cf56427994"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
