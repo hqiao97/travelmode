@@ -9,6 +9,7 @@ hv-loader:
   hv-chart-2: ["charts/race.html", "500"] # second argument is the height
   hv-chart-3: ["charts/origin.html", "500"] # second argument is the height
   hv-chart-4: ["charts/education.html", "500"] # second argument is the height
+  hv-chart-5: ["charts/private_veh.html", "500"] # second argument is the height
 
 toc: true
 toc_sticky: true
@@ -41,3 +42,13 @@ In terms of trip origins, for the trips that use private vehicles, a higher prop
 When we analyze the education attainment of the travelers, we find that for the travellers that used private vehicle, slightly more of them are high school graduate or GED OR with college or associates degree; higher proportion of people with graduate degree or professional degree travel on foot or by long-distance transit; biking is more popular with people with graduate degree or professional degree or who are less than a high school graduate; school bus are taken by those are less than a high school graduate.
 
 <div id="hv-chart-4"></div>
+
+## Mode vs. two variable
+In this part, to better understand the effects of different varaiables, we will use Panel to create a webapp that allow multiple user input.
+<strong>Note</strong> that we will leave out of the "private vehicle" mode choice data first. 
+
+For each ethnic group in every region, walking is the most popular way to travel. Among white population, public transit is only popular with those whose trip originate in urban area; for black population, public transit is slightly more frequently used for the trips that originate in second city, suburban, and small town area; for asian, public transit is also slightly more frequently used for the trips that originate in second city and suburban area.
+
+Now we only look at the private vehicle trip. The differences are tiny
+<div id="hv-chart-5"></div>
+
