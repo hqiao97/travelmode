@@ -19,6 +19,20 @@ National Household Travel Survey data to predict travel mode choices of trips us
 factors, trip factors and land use factors through adopting four machine learning methods: logistic regression,
 random forest, bagging, boosting.
 
+## Data
+The data used in prediction is the [2017 US National Household Travel Survey (NHTS)](https://nhts.ornl.gov/).
+The NHTS is conducted by the Federal Highway Administration and it is the authoritative source on the
+travel behavior of the American public. This survey includes four datasets: trip dataset, person dataset,
+household dataset and vehicle dataset. Trip dataset contains 923,572 entries. 
+
+## Feature Engineering
+Features we selected fall into three categories: socio-economic characteristics, trip characteristics and land
+use characteristics. Socio-economic characteristics include age, race, gender, education attainment, occu-
+pation, home ownership, and health status etc.Trip characteristics include trip duration, trip distance, trip
+purpose, count of people on trip, travel day of the week etc. Land use characteristics include urban area
+classication, population density, job density and housing density etc.
+![confusion_matrix_lr]({{ site.url }}{{ site.baseurl }}/assets/images/ml_features.png)
+
 ## Logistic Regression
 The logistic regression model was implemented using the scikit learn library. The model did not do a good job with testing mean square error of 0.479 and testing accuracy of 0.89. Especially when looking at the confusion matrix (Figure 1), we can see that because of the imbalance nature of how people travel -- people travel mostly by car, the model has a bias toward private vehicles and tries to predict everything into that category.
 <br>
@@ -39,7 +53,7 @@ The predictive performance of boosting is worse than bagging but slightly better
 <br>
 ![confusion_matrix_lr]({{ site.url }}{{ site.baseurl }}/assets/images/ml_cm_boosting.png)
 
-## Conclusion
+## Evaluation
 ![confusion_matrix_lr]({{ site.url }}{{ site.baseurl }}/assets/images/ml_evaluation.png)
 <br>
 Generally, bagging produced the most accurate prediction in travel choice with an accuracy of 0.943. Random Forest
@@ -47,3 +61,4 @@ also has high testing accuracy, but misclassified a large number of trips made b
 long-distance transit and other modes to private vehicle class. The random forest is one of the ensemble methods and very close to bagging, while bagging considers all the features when spliting the nodes, which makes running bagging slower than random forest model but slightly improves the testing accuracy.
 
 <div id="altair-chart-1"></div>
+<br>
