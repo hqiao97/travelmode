@@ -30,7 +30,7 @@ Features we selected fall into three categories: socio-economic characteristics,
 use characteristics. Socio-economic characteristics include age, race, gender, education attainment, occu-
 pation, home ownership, and health status etc.Trip characteristics include trip duration, trip distance, trip
 purpose, count of people on trip, travel day of the week etc. Land use characteristics include urban area
-classication, population density, job density and housing density etc.
+classification, population density, job density and housing density etc.
 ![confusion_matrix_lr]({{ site.url }}{{ site.baseurl }}/assets/images/ml_features.png)
 
 ## Logistic Regression
