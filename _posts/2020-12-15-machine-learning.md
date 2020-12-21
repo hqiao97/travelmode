@@ -19,4 +19,9 @@ National Household Travel Survey data to predict travel mode choices of trips us
 factors, trip factors and land use factors through adopting four machine learning methods: logistic regression,
 random forest, bagging, boosting.
 
+## Logistic Regression
+The logistic regression model was implemented using the scikit learn library. The model did not do a good job with testing mean square error of 0.479 and testing accuracy of 0.89. Especially when looking at the confusion matrix (Figure 1), we can see that because of the imbalance nature of how people travel -- people travel mostly by car, the model has a bias toward private vehicles and tries to predict everything into that category.
+![confusion_matrix_lr]({{ site.url }}{{ site.baseurl }}/assets/images/ml_cm_lr.png)
+
+
 <div id="altair-chart-1"></div>
