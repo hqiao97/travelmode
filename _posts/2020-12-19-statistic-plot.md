@@ -44,11 +44,11 @@ When we analyze the education attainment of the travelers, we find that for the 
 <div id="hv-chart-4"></div>
 
 ## Mode vs. two variable
-In this part, to better understand the effects of different varaiables, we will use Panel to create a webapp that allow multiple user input.
-<strong>Note</strong> that we will leave out of the "private vehicle" mode choice data first. 
+In this part, to better understand the effects of different variables, we will use Panel to create a webapp that allows multiple user input.
+<strong>Note</strong> that we will leave out the "private vehicle" mode choice data first. 
 
 For each ethnic group in every region, walking is the most popular way to travel. Among white population, public transit is only popular with those whose trip originate in urban area; for black population, public transit is slightly more frequently used for the trips that originate in second city, suburban, and small town area; for asian, public transit is also slightly more frequently used for the trips that originate in second city and suburban area.
 
-Now we only look at the private vehicle trip. The differences are tiny
+Now we only look at the private vehicle trip. The differences are tiny.
 <div id="hv-chart-5"></div>
 
