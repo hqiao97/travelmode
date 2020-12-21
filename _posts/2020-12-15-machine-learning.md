@@ -55,7 +55,7 @@ long-distance transit and other modes to private vehicle class. The random fores
 <br/>
 ![confusion_matrix_lr]({{ site.url }}{{ site.baseurl }}/assets/images/ml_evaluation.png)
 
-Since the inbalance of data in different travel mode groups, the prediction accuracies for the travel mode lables are varied. The trips made by private vehicle account for a large proportion of the dataset, all of the machine learning model has very high F1 score (over 0.9 ) in predicting trips made by private vehicle. While the prediction performances in predicting Biking, other travel modes are generally bad since the data in these two lable groups is scarce. 
+Since the imbalance of data in different travel mode groups, the prediction accuracies for the travel mode lables are varied. The trips made by private vehicle account for a large proportion of the dataset, all of the machine learning model has very high F1 score (over 0.9 ) in predicting trips made by private vehicle. While the prediction performances in predicting Biking, other travel modes are generally bad since the data in these two lable groups is scarce. 
 <br/>
 <div id="altair-chart-1"></div>
 
