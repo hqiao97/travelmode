@@ -39,13 +39,11 @@ The predictive performance of boosting is worse than bagging but slightly better
 <br>
 ![confusion_matrix_lr]({{ site.url }}{{ site.baseurl }}/assets/images/ml_cm_boosting.png)
 
+## Conclusion
+![confusion_matrix_lr]({{ site.url }}{{ site.baseurl }}/assets/images/ml_evaluation.png)
 <br>
-Generally, bagging produced the most accurate prediction in travel choice with an accuracy of 0.943. ANN
+Generally, bagging produced the most accurate prediction in travel choice with an accuracy of 0.943. Random Forest
 also has high testing accuracy, but misclassified a large number of trips made by biking, public transit,
-long-distance transit and other modes to private car class. The prediction accuracy of random forest is
-inferior to any of the other models, and most of the travel choices were mispredicted to private car class.
-Even the random forest is one of the ensemble methods and very close to bagging, while bagging considers
-all the features when spliting the nodes, which makes running bagging slower than random forest model but
-signicantly improves the testing accuracy.
+long-distance transit and other modes to private vehicle class. The random forest is one of the ensemble methods and very close to bagging, while bagging considers all the features when spliting the nodes, which makes running bagging slower than random forest model but slightly improves the testing accuracy.
 
 <div id="altair-chart-1"></div>
