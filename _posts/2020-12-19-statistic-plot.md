@@ -55,8 +55,13 @@ Now we only look at the private vehicle trip. The differences are tiny.
 ## More Altair Charts
 
 ![brush1-1]({{ site.url }}{{ site.baseurl }}/assets/images/brush1-1.png)
+
 ![brush1-2]({{ site.url }}{{ site.baseurl }}/assets/images/brush1-2.png)
+
 ![brush2-1]({{ site.url }}{{ site.baseurl }}/assets/images/brush2-1.png)
+
 ![brush2-2]({{ site.url }}{{ site.baseurl }}/assets/images/brush2-2.png)
+
 ![heat map 1]({{ site.url }}{{ site.baseurl }}/assets/images/hm-1.png)
+
 ![heat map 2]({{ site.url }}{{ site.baseurl }}/assets/images/hm-2.png)
