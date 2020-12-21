@@ -5,7 +5,7 @@ published: true
 tags: [dataviz, altair, hvplot]
 excerpt: "Comparing 4 machine learning methods for predicting mode choice."
 altair-loader:
-  altair-chart-1: "charts/ml_f1_score.json"
+  altair-chart-1: "charts/ml_f1_score.html"
 
 toc: true
 toc_sticky: true
