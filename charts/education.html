@@ -1,0 +1,103 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>education</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="/static/extensions/panel/css/alerts.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/card.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/widgets.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/markdown.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/json.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/dataframe.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="/static/extensions/panel/bundled/vegaplot/npm/vega@5" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="/static/extensions/panel/bundled/vegaplot/npm/vega-lite@4" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="/static/extensions/panel/bundled/vegaplot/npm/vega-embed@6" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.2.3.min.js" integrity="sha384-98GDGJ0kOMCUMUePhksaQ/GYgB3+NH9h996V88sh3aOiUNX3N+fLXAtry6xctSZ6" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5/build/vega.min.js" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@4/build/vega-lite.min.js" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6/build/vega-embed.min.js" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://unpkg.com/@holoviz/panel@^0.10.1/dist/panel.min.js" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="282a460a-b916-4713-9e41-e45f81c87555" data-root-id="3380"></div>
+            
+          
+            
+              <div class="bk-root" id="d1f12ca0-42ea-4308-9ced-51e98ef17b59" data-root-id="3464"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="3589">
+          {"cc8c1b0b-115d-4dc5-ae7e-1ac7a6d505af":{"roots":{"references":[{"attributes":{},"id":"3398","type":"BasicTicker"},{"attributes":{"axis_label":"proportion","bounds":"auto","formatter":{"id":"3425"},"major_label_orientation":"horizontal","ticker":{"id":"3398"}},"id":"3397","type":"LinearAxis"},{"attributes":{"end":91.5879,"reset_end":91.5879,"reset_start":0.0,"tags":[[["proportion","proportion",null]]]},"id":"3383","type":"Range1d"},{"attributes":{"state":{"Biking":{"content":"{\"events\": [{\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3383\"}, \"new\": 1.8187000000000002}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3383\"}, \"new\": 1.8187000000000002}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3386\"}, \"new\": \"TRPMODEN: Biking\"}], \"references\": []}","header":"{\"msgid\": \"3496\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"},"Long-distance Transit":{"content":"{\"events\": [{\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3383\"}, \"new\": 0.9586}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3383\"}, \"new\": 0.9586}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3386\"}, \"new\": \"TRPMODEN: Long-distance Transit\"}, {\"cols\": null, \"column_source\": {\"id\": \"3414\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"OBHUR\": [\"Rural\", \"Second City\", \"Small Town\", \"Suburban\", \"Urban\"], \"proportion\": {\"__ndarray__\": \"6SYxCKwc0j/hehSuR+G6P7TIdr6fGs8/eekmMQis4D/+1HjpJjHsPw==\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [5]}}}], \"references\": []}","header":"{\"msgid\": \"3486\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"},"Other":{"content":"{\"events\": [{\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3383\"}, \"new\": 1.1628}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3383\"}, \"new\": 1.1628}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3386\"}, \"new\": \"TRPMODEN: Other\"}, {\"cols\": null, \"column_source\": {\"id\": \"3414\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"OBHUR\": [\"Rural\", \"Second City\", \"Small Town\", \"Suburban\", \"Urban\"], \"proportion\": {\"__ndarray__\": \"x0s3iUFg8T97FK5H4XrcP9v5fmq8dOM/9ihcj8L12D8nMQisHFrUPw==\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [5]}}}], \"references\": []}","header":"{\"msgid\": \"3501\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"},"Private Vehicle":{"content":"{\"events\": [{\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3383\"}, \"new\": 91.5879}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3383\"}, \"new\": 91.5879}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3386\"}, \"new\": \"TRPMODEN: Private Vehicle\"}, {\"cols\": null, \"column_source\": {\"id\": \"3414\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"OBHUR\": [\"Rural\", \"Second City\", \"Small Town\", \"Suburban\", \"Urban\"], \"proportion\": {\"__ndarray__\": \"kxgEVg4lVkCBlUOLbHdVQH0/NV66cVZARrbz/dRIVkCYbhKDwOpRQA==\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [5]}}}], \"references\": []}","header":"{\"msgid\": \"3516\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"},"Public Transit":{"content":"{\"events\": [{\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3383\"}, \"new\": 7.276599999999999}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3383\"}, \"new\": 7.276599999999999}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3386\"}, \"new\": \"TRPMODEN: Public Transit\"}, {\"cols\": null, \"column_source\": {\"id\": \"3414\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"OBHUR\": [\"Rural\", \"Second City\", \"Small Town\", \"Suburban\", \"Urban\"], \"proportion\": {\"__ndarray__\": \"46WbxCCw2j9vEoPAyqH1P7bz/dR46eI/bef7qfHS8T/pJjEIrJwaQA==\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [5]}}}], \"references\": []}","header":"{\"msgid\": \"3491\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"},"School Bus":{"content":"{\"events\": [{\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3383\"}, \"new\": 2.1272}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3383\"}, \"new\": 2.1272}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3386\"}, \"new\": \"TRPMODEN: School Bus\"}, {\"cols\": null, \"column_source\": {\"id\": \"3414\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"OBHUR\": [\"Rural\", \"Second City\", \"Small Town\", \"Suburban\", \"Urban\"], \"proportion\": {\"__ndarray__\": \"Gy/dJAaB/z8OLbKd76fqP28Sg8DKofk/001iEFg58j/4U+Olm8TYPw==\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [5]}}}], \"references\": []}","header":"{\"msgid\": \"3506\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"},"Walking":{"content":"{\"events\": [{\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3383\"}, \"new\": 19.5697}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3383\"}, \"new\": 19.5697}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"3386\"}, \"new\": \"TRPMODEN: Walking\"}, {\"cols\": null, \"column_source\": {\"id\": \"3414\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"OBHUR\": [\"Rural\", \"Second City\", \"Small Town\", \"Suburban\", \"Urban\"], \"proportion\": {\"__ndarray__\": \"jZduEoNAG0Coxks3iQEkQO58PzVeOhlA9P3UeOkmG0B3vp8aL10yQA==\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [5]}}}], \"references\": []}","header":"{\"msgid\": \"3511\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"}},"values":["Private Vehicle"],"widgets":{"3454":0}},"id":"3464","type":"panel.models.state.State"},{"attributes":{"data":{"OBHUR":["Rural","Second City","Small Town","Suburban","Urban"],"proportion":{"__ndarray__":"kxgEVg4lVkCBlUOLbHdVQH0/NV66cVZARrbz/dRIVkCYbhKDwOpRQA==","dtype":"float64","order":"little","shape":[5]}},"selected":{"id":"3415"},"selection_policy":{"id":"3439"}},"id":"3414","type":"ColumnDataSource"},{"attributes":{"js_property_callbacks":{"change:value":[{"id":"3465"}]},"margin":[20,20,20,20],"min_width":250,"options":["Private Vehicle","Walking","School Bus","Other","Biking","Public Transit","Long-distance Transit"],"title":"TRPMODEN","value":"Private Vehicle","width":250},"id":"3454","type":"Select"},{"attributes":{},"id":"3415","type":"Selection"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"3406","type":"BoxAnnotation"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#ff9a8a"},"line_alpha":{"value":0.1},"top":{"field":"proportion"},"width":{"value":0.8},"x":{"field":"OBHUR"}},"id":"3418","type":"VBar"},{"attributes":{"factors":["Rural","Second City","Small Town","Suburban","Urban"],"tags":[[["OBHUR","OBHUR",null]]]},"id":"3382","type":"FactorRange"},{"attributes":{"margin":[5,5,5,5],"name":"VSpacer08451","sizing_mode":"stretch_height"},"id":"3452","type":"Spacer"},{"attributes":{"source":{"id":"3414"}},"id":"3421","type":"CDSView"},{"attributes":{"callback":null,"renderers":[{"id":"3420"}],"tags":["hv_created"],"tooltips":[["OBHUR","@{OBHUR}"],["proportion","@{proportion}"]]},"id":"3384","type":"HoverTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"3384"},{"id":"3401"},{"id":"3402"},{"id":"3403"},{"id":"3404"},{"id":"3405"}]},"id":"3407","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#ff9a8a"},"line_alpha":{"value":0.2},"top":{"field":"proportion"},"width":{"value":0.8},"x":{"field":"OBHUR"}},"id":"3419","type":"VBar"},{"attributes":{"fill_color":{"value":"#ff9a8a"},"top":{"field":"proportion"},"width":{"value":0.8},"x":{"field":"OBHUR"}},"id":"3417","type":"VBar"},{"attributes":{},"id":"3401","type":"SaveTool"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer08455","sizing_mode":"stretch_width"},"id":"3450","type":"Spacer"},{"attributes":{},"id":"3402","type":"PanTool"},{"attributes":{},"id":"3439","type":"UnionRenderers"},{"attributes":{"axis":{"id":"3397"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"3400","type":"Grid"},{"attributes":{},"id":"3403","type":"WheelZoomTool"},{"attributes":{"below":[{"id":"3394"}],"center":[{"id":"3396"},{"id":"3400"}],"left":[{"id":"3397"}],"margin":[5,5,5,5],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_height":400,"plot_width":400,"renderers":[{"id":"3420"}],"sizing_mode":"fixed","title":{"id":"3386"},"toolbar":{"id":"3407"},"x_range":{"id":"3382"},"x_scale":{"id":"3390"},"y_range":{"id":"3383"},"y_scale":{"id":"3392"}},"id":"3385","subtype":"Figure","type":"Plot"},{"attributes":{"overlay":{"id":"3406"}},"id":"3404","type":"BoxZoomTool"},{"attributes":{},"id":"3390","type":"CategoricalScale"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer08454","sizing_mode":"stretch_width"},"id":"3381","type":"Spacer"},{"attributes":{"axis_label":"OBHUR","bounds":"auto","formatter":{"id":"3422"},"major_label_orientation":0.8726646259971648,"ticker":{"id":"3395"}},"id":"3394","type":"CategoricalAxis"},{"attributes":{"margin":[5,5,5,5],"name":"VSpacer08452","sizing_mode":"stretch_height"},"id":"3455","type":"Spacer"},{"attributes":{},"id":"3422","type":"CategoricalTickFormatter"},{"attributes":{"data_source":{"id":"3414"},"glyph":{"id":"3417"},"hover_glyph":null,"muted_glyph":{"id":"3419"},"nonselection_glyph":{"id":"3418"},"selection_glyph":null,"view":{"id":"3421"}},"id":"3420","type":"GlyphRenderer"},{"attributes":{"code":"\nvar state = null\nfor (var root of cb_obj.document.roots()) {\n  if (root.id == '3464') {\n    state = root;\n    break;\n  }\n}\nif (!state) { return; }\nstate.set_state(cb_obj, cb_obj.value)\n"},"id":"3465","type":"CustomJS"},{"attributes":{},"id":"3405","type":"ResetTool"},{"attributes":{"children":[{"id":"3381"},{"id":"3385"},{"id":"3450"},{"id":"3451"}],"margin":[0,0,0,0],"name":"Row08445","tags":["embedded"]},"id":"3380","type":"Row"},{"attributes":{"children":[{"id":"3452"},{"id":"3453"},{"id":"3455"}],"margin":[0,0,0,0],"name":"Column08453"},"id":"3451","type":"Column"},{"attributes":{},"id":"3392","type":"LinearScale"},{"attributes":{"children":[{"id":"3454"}],"css_classes":["panel-widget-box"],"margin":[5,5,5,5],"name":"WidgetBox08446"},"id":"3453","type":"Column"},{"attributes":{},"id":"3425","type":"BasicTickFormatter"},{"attributes":{"text":"TRPMODEN: Private Vehicle","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"3386","type":"Title"},{"attributes":{},"id":"3395","type":"CategoricalTicker"},{"attributes":{"axis":{"id":"3394"},"grid_line_color":null,"ticker":null},"id":"3396","type":"Grid"}],"root_ids":["3380","3464"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('3589').textContent;
+                  var render_items = [{"docid":"cc8c1b0b-115d-4dc5-ae7e-1ac7a6d505af","root_ids":["3380","3464"],"roots":{"3380":"282a460a-b916-4713-9e41-e45f81c87555","3464":"d1f12ca0-42ea-4308-9ced-51e98ef17b59"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

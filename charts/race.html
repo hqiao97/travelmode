@@ -1,0 +1,103 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>race</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="/static/extensions/panel/css/alerts.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/card.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/widgets.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/markdown.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/json.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/dataframe.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="/static/extensions/panel/bundled/vegaplot/npm/vega@5" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="/static/extensions/panel/bundled/vegaplot/npm/vega-lite@4" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="/static/extensions/panel/bundled/vegaplot/npm/vega-embed@6" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.2.3.min.js" integrity="sha384-98GDGJ0kOMCUMUePhksaQ/GYgB3+NH9h996V88sh3aOiUNX3N+fLXAtry6xctSZ6" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5/build/vega.min.js" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@4/build/vega-lite.min.js" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6/build/vega-embed.min.js" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://unpkg.com/@holoviz/panel@^0.10.1/dist/panel.min.js" integrity="sha384-" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="ced62776-46e2-4e97-8b7f-4fcbb63179f6" data-root-id="2968"></div>
+            
+          
+            
+              <div class="bk-root" id="908d17cc-3cf0-4bce-ab3a-df7f6162eab6" data-root-id="3048"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="3173">
+          {"8527ce04-ad12-4b57-a526-c3c163b6c6dc":{"roots":{"references":[{"attributes":{"js_property_callbacks":{"change:value":[{"id":"3049"}]},"margin":[20,20,20,20],"min_width":250,"options":["Private Vehicle","Walking","Public Transit","School Bus","Biking","Other","Long-distance Transit"],"title":"TRPMODEN","value":"Private Vehicle","width":250},"id":"3038","type":"Select"},{"attributes":{},"id":"2978","type":"CategoricalScale"},{"attributes":{"children":[{"id":"3036"},{"id":"3037"},{"id":"3039"}],"margin":[0,0,0,0],"name":"Column06771"},"id":"3035","type":"Column"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#ff9a8a"},"line_alpha":{"value":0.2},"top":{"field":"proportion"},"width":{"value":0.8},"x":{"field":"R_RACE"}},"id":"3007","type":"VBar"},{"attributes":{"source":{"id":"3002"}},"id":"3009","type":"CDSView"},{"attributes":{},"id":"2989","type":"SaveTool"},{"attributes":{"fill_color":{"value":"#ff9a8a"},"top":{"field":"proportion"},"width":{"value":0.8},"x":{"field":"R_RACE"}},"id":"3005","type":"VBar"},{"attributes":{"margin":[5,5,5,5],"name":"VSpacer06769","sizing_mode":"stretch_height"},"id":"3036","type":"Spacer"},{"attributes":{"state":{"Biking":{"content":"{\"events\": [{\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2971\"}, \"new\": 1.175}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2971\"}, \"new\": 1.175}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2974\"}, \"new\": \"TRPMODEN: Biking\"}, {\"cols\": null, \"column_source\": {\"id\": \"3002\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"R_RACE\": [\"American Indian or Alaska Native\", \"Asian\", \"Black/African American\", \"Native Hawaiian or other Pacific Islander\", \"White/Caucasian\"], \"proportion\": {\"__ndarray__\": \"ppvEILBy8D/ufD81XrrxP2Q730+Nl+I/WDm0yHa+7z9WDi2yne/xPw==\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [5]}}}], \"references\": []}","header":"{\"msgid\": \"3080\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"},"Long-distance Transit":{"content":"{\"events\": [{\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2971\"}, \"new\": 0.9615}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2971\"}, \"new\": 0.9615}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2974\"}, \"new\": \"TRPMODEN: Long-distance Transit\"}, {\"cols\": null, \"column_source\": {\"id\": \"3002\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"R_RACE\": [\"American Indian or Alaska Native\", \"Asian\", \"Black/African American\", \"Native Hawaiian or other Pacific Islander\", \"White/Caucasian\"], \"proportion\": {\"__ndarray__\": \"kxgEVg4twj/n+6nx0k3iP8/3U+Olm9Q//Knx0k1i7D/8qfHSTWLYPw==\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [5]}}}], \"references\": []}","header":"{\"msgid\": \"3070\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"},"Other":{"content":"{\"events\": [{\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2971\"}, \"new\": 0.8954}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2971\"}, \"new\": 0.8954}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2974\"}, \"new\": \"TRPMODEN: Other\"}, {\"cols\": null, \"column_source\": {\"id\": \"3002\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"R_RACE\": [\"American Indian or Alaska Native\", \"Asian\", \"Black/African American\", \"Native Hawaiian or other Pacific Islander\", \"White/Caucasian\"], \"proportion\": {\"__ndarray__\": \"Di2yne+n6j8lBoGVQ4vMP7Kd76fGS+M/jZduEoPAyj+8dJMYBFbiPw==\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [5]}}}], \"references\": []}","header":"{\"msgid\": \"3075\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"},"Private Vehicle":{"content":"{\"events\": [{\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2971\"}, \"new\": 87.7016}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2971\"}, \"new\": 87.7016}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2974\"}, \"new\": \"TRPMODEN: Private Vehicle\"}, {\"cols\": null, \"column_source\": {\"id\": \"3002\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"R_RACE\": [\"American Indian or Alaska Native\", \"Asian\", \"Black/African American\", \"Native Hawaiian or other Pacific Islander\", \"White/Caucasian\"], \"proportion\": {\"__ndarray__\": \"cT0K16NIVUDpJjEIrERUQLTIdr6fwlRARrbz/dSAVUB1kxgEVsZVQA==\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [5]}}}], \"references\": []}","header":"{\"msgid\": \"3100\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"},"Public Transit":{"content":"{\"events\": [{\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2971\"}, \"new\": 4.9207}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2971\"}, \"new\": 4.9207}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2974\"}, \"new\": \"TRPMODEN: Public Transit\"}, {\"cols\": null, \"column_source\": {\"id\": \"3002\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"R_RACE\": [\"American Indian or Alaska Native\", \"Asian\", \"Black/African American\", \"Native Hawaiian or other Pacific Islander\", \"White/Caucasian\"], \"proportion\": {\"__ndarray__\": \"TmIQWDm0A0DVeOkmMQgLQKJFtvP9VBJA2/l+arx0BECyne+nxkvzPw==\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [5]}}}], \"references\": []}","header":"{\"msgid\": \"3090\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"},"School Bus":{"content":"{\"events\": [{\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2971\"}, \"new\": 2.5951000000000004}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2971\"}, \"new\": 2.5951000000000004}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2974\"}, \"new\": \"TRPMODEN: School Bus\"}, {\"cols\": null, \"column_source\": {\"id\": \"3002\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"R_RACE\": [\"American Indian or Alaska Native\", \"Asian\", \"Black/African American\", \"Native Hawaiian or other Pacific Islander\", \"White/Caucasian\"], \"proportion\": {\"__ndarray__\": \"tvP91Hjp/D+mm8QgsHL4P28Sg8DKoQNA8KfGSzeJ8T/jpZvEILDwPw==\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [5]}}}], \"references\": []}","header":"{\"msgid\": \"3085\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"},"Walking":{"content":"{\"events\": [{\"attr\": \"end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2971\"}, \"new\": 12.503}, {\"attr\": \"reset_end\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2971\"}, \"new\": 12.503}, {\"attr\": \"text\", \"kind\": \"ModelChanged\", \"model\": {\"id\": \"2974\"}, \"new\": \"TRPMODEN: Walking\"}, {\"cols\": null, \"column_source\": {\"id\": \"3002\"}, \"kind\": \"ColumnDataChanged\", \"new\": {\"R_RACE\": [\"American Indian or Alaska Native\", \"Asian\", \"Black/African American\", \"Native Hawaiian or other Pacific Islander\", \"White/Caucasian\"], \"proportion\": {\"__ndarray__\": \"Vg4tsp0vIUAIrBxaZDsoQBSuR+F61CBAy6FFtvN9IEAOLbKd7ychQA==\", \"dtype\": \"float64\", \"order\": \"little\", \"shape\": [5]}}}], \"references\": []}","header":"{\"msgid\": \"3095\", \"msgtype\": \"PATCH-DOC\"}","metadata":"{}"}},"values":["Private Vehicle"],"widgets":{"3038":0}},"id":"3048","type":"panel.models.state.State"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"2972"},{"id":"2989"},{"id":"2990"},{"id":"2991"},{"id":"2992"},{"id":"2993"}]},"id":"2995","type":"Toolbar"},{"attributes":{"factors":["American Indian or Alaska Native","Asian","Black/African American","Native Hawaiian or other Pacific Islander","White/Caucasian"],"tags":[[["R_RACE","R_RACE",null]]]},"id":"2970","type":"FactorRange"},{"attributes":{"axis":{"id":"2985"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"2988","type":"Grid"},{"attributes":{"code":"\nvar state = null\nfor (var root of cb_obj.document.roots()) {\n  if (root.id == '3048') {\n    state = root;\n    break;\n  }\n}\nif (!state) { return; }\nstate.set_state(cb_obj, cb_obj.value)\n"},"id":"3049","type":"CustomJS"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer06773","sizing_mode":"stretch_width"},"id":"3034","type":"Spacer"},{"attributes":{},"id":"2993","type":"ResetTool"},{"attributes":{},"id":"3023","type":"UnionRenderers"},{"attributes":{"axis_label":"proportion","bounds":"auto","formatter":{"id":"3013"},"major_label_orientation":"horizontal","ticker":{"id":"2986"}},"id":"2985","type":"LinearAxis"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"2994","type":"BoxAnnotation"},{"attributes":{"data_source":{"id":"3002"},"glyph":{"id":"3005"},"hover_glyph":null,"muted_glyph":{"id":"3007"},"nonselection_glyph":{"id":"3006"},"selection_glyph":null,"view":{"id":"3009"}},"id":"3008","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#ff9a8a"},"line_alpha":{"value":0.1},"top":{"field":"proportion"},"width":{"value":0.8},"x":{"field":"R_RACE"}},"id":"3006","type":"VBar"},{"attributes":{"axis":{"id":"2982"},"grid_line_color":null,"ticker":null},"id":"2984","type":"Grid"},{"attributes":{"text":"TRPMODEN: Private Vehicle","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"2974","type":"Title"},{"attributes":{"overlay":{"id":"2994"}},"id":"2992","type":"BoxZoomTool"},{"attributes":{"children":[{"id":"2969"},{"id":"2973"},{"id":"3034"},{"id":"3035"}],"margin":[0,0,0,0],"name":"Row06763","tags":["embedded"]},"id":"2968","type":"Row"},{"attributes":{},"id":"2991","type":"WheelZoomTool"},{"attributes":{"callback":null,"renderers":[{"id":"3008"}],"tags":["hv_created"],"tooltips":[["R_RACE","@{R_RACE}"],["proportion","@{proportion}"]]},"id":"2972","type":"HoverTool"},{"attributes":{"below":[{"id":"2982"}],"center":[{"id":"2984"},{"id":"2988"}],"left":[{"id":"2985"}],"margin":[5,5,5,5],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_width":500,"renderers":[{"id":"3008"}],"sizing_mode":"fixed","title":{"id":"2974"},"toolbar":{"id":"2995"},"x_range":{"id":"2970"},"x_scale":{"id":"2978"},"y_range":{"id":"2971"},"y_scale":{"id":"2980"}},"id":"2973","subtype":"Figure","type":"Plot"},{"attributes":{"end":87.7016,"reset_end":87.7016,"reset_start":0.0,"tags":[[["proportion","proportion",null]]]},"id":"2971","type":"Range1d"},{"attributes":{},"id":"2980","type":"LinearScale"},{"attributes":{},"id":"2990","type":"PanTool"},{"attributes":{},"id":"3013","type":"BasicTickFormatter"},{"attributes":{"margin":[5,5,5,5],"name":"VSpacer06770","sizing_mode":"stretch_height"},"id":"3039","type":"Spacer"},{"attributes":{},"id":"2983","type":"CategoricalTicker"},{"attributes":{},"id":"2986","type":"BasicTicker"},{"attributes":{},"id":"3003","type":"Selection"},{"attributes":{},"id":"3010","type":"CategoricalTickFormatter"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer06772","sizing_mode":"stretch_width"},"id":"2969","type":"Spacer"},{"attributes":{"axis_label":"R_RACE","bounds":"auto","formatter":{"id":"3010"},"major_label_orientation":1.0471975511965976,"ticker":{"id":"2983"}},"id":"2982","type":"CategoricalAxis"},{"attributes":{"children":[{"id":"3038"}],"css_classes":["panel-widget-box"],"margin":[5,5,5,5],"name":"WidgetBox06764"},"id":"3037","type":"Column"},{"attributes":{"data":{"R_RACE":["American Indian or Alaska Native","Asian","Black/African American","Native Hawaiian or other Pacific Islander","White/Caucasian"],"proportion":{"__ndarray__":"cT0K16NIVUDpJjEIrERUQLTIdr6fwlRARrbz/dSAVUB1kxgEVsZVQA==","dtype":"float64","order":"little","shape":[5]}},"selected":{"id":"3003"},"selection_policy":{"id":"3023"}},"id":"3002","type":"ColumnDataSource"}],"root_ids":["2968","3048"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('3173').textContent;
+                  var render_items = [{"docid":"8527ce04-ad12-4b57-a526-c3c163b6c6dc","root_ids":["2968","3048"],"roots":{"2968":"ced62776-46e2-4e97-8b7f-4fcbb63179f6","3048":"908d17cc-3cf0-4bce-ab3a-df7f6162eab6"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
