@@ -10,8 +10,8 @@ hv-loader:
   hv-chart-3: ["charts/origin.html", "500"] # second argument is the height
   hv-chart-4: ["charts/education.html", "500"] # second argument is the height
   hv-chart-5: ["charts/private_veh.html", "500"] # second argument is the height
-  hv-chart-6: ["charts/duration_mode.html", "500", "1000"] # second argument is the height
-  hv-chart-7: ["charts/purpose_count.html", "500","1000"] # second argument is the height
+  hv-chart-6: ["charts/duration_mode.html", "1000"] # second argument is the height
+  hv-chart-7: ["charts/purpose_count.html", "1000"] # second argument is the height
   
 
 toc: true
