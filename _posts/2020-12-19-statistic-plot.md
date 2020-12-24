@@ -11,6 +11,7 @@ hv-loader:
   hv-chart-4: ["charts/education.html", "500"] # second argument is the height
   hv-chart-5: ["charts/private_veh.html", "500"] # second argument is the height
   hv-chart-6: ["charts/duration_mode.html", "500"] # second argument is the height
+  hv-chart-7: ["charts/purpose_count.html", "500"] # second argument is the height
   
 
 toc: true
@@ -63,6 +64,7 @@ We then plotted more interesting Altair charts. For the one below, we plot the o
 ![brush1-2]({{ site.url }}{{ site.baseurl }}/assets/images/brush1-2.png)
 
 For the second Altair interactive chart, we plot out the count of trips for each trip purpose. The interactive component comes in when the user uses the brush to select a trip purpose, then the plot below will show the count of selected trips in each travel mode.
+<div id="hv-chart-7"></div>
 
 ![brush2-1]({{ site.url }}{{ site.baseurl }}/assets/images/brush2-1.png)
 
