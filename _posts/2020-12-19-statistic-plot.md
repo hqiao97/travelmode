@@ -59,16 +59,8 @@ Now we only look at the private vehicle trip. The differences are tiny.
 We then plotted more interesting Altair charts. For the one below, we plot the observations by trip purpose against trip duration using a scatter plot and then present the count of records by trip mode at the bottom for the selected points using a brush. As seen on the plot below, with a brush, we are able to select the trips with trip duration longer than 200 minutes and present their counts by mode choice.
 <div id="hv-chart-6"></div>
 
-![brush1-1]({{ site.url }}{{ site.baseurl }}/assets/images/brush1-1.png)
-
-![brush1-2]({{ site.url }}{{ site.baseurl }}/assets/images/brush1-2.png)
-
 For the second Altair interactive chart, we plot out the count of trips for each trip purpose. The interactive component comes in when the user uses the brush to select a trip purpose, then the plot below will show the count of selected trips in each travel mode.
 <div id="hv-chart-7"></div>
-
-![brush2-1]({{ site.url }}{{ site.baseurl }}/assets/images/brush2-1.png)
-
-![brush2-2]({{ site.url }}{{ site.baseurl }}/assets/images/brush2-2.png)
 
 The last two charts are heat maps plotted with Altair. The first heat map shows trip origin purpose against trip destination purpose. The brighter the color shows the more trips with that OD purpose pair. We see that the most popular trip purpose pairs are Regular Home Activities-Buy Goods and Regular Home Activities-Work.
 
