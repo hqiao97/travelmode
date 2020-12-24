@@ -10,6 +10,8 @@ hv-loader:
   hv-chart-3: ["charts/origin.html", "500"] # second argument is the height
   hv-chart-4: ["charts/education.html", "500"] # second argument is the height
   hv-chart-5: ["charts/private_veh.html", "500"] # second argument is the height
+  hv-chart-6: ["charts/duration_mode.html", "500"] # second argument is the height
+  
 
 toc: true
 toc_sticky: true
@@ -54,6 +56,7 @@ Now we only look at the private vehicle trip. The differences are tiny.
 
 ## More Altair Charts
 We then plotted more interesting Altair charts. For the one below, we plot the observations by trip purpose against trip duration using a scatter plot and then present the count of records by trip mode at the bottom for the selected points using a brush. As seen on the plot below, with a brush, we are able to select the trips with trip duration longer than 200 minutes and present their counts by mode choice.
+<div id="hv-chart-6"></div>
 
 ![brush1-1]({{ site.url }}{{ site.baseurl }}/assets/images/brush1-1.png)
 
